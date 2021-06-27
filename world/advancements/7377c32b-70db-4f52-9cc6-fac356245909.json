@@ -1103,6 +1103,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2021-06-27 16:38:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -3557,14 +3563,19 @@
       "seasonal_pumpkin_patch": "2021-06-27 03:12:28 +0200",
       "bayou_mangrove": "2021-06-27 02:02:12 +0200",
       "wetland_forest": "2021-06-27 02:06:52 +0200",
+      "grassland_clover_patch": "2021-06-27 17:47:54 +0200",
       "bayou": "2021-06-27 02:02:28 +0200",
+      "highland": "2021-06-27 17:39:11 +0200",
       "wetland": "2021-06-27 02:06:03 +0200",
       "rainforest_floodplain": "2021-06-27 02:00:22 +0200",
       "coniferous_forest": "2021-06-27 03:23:43 +0200",
       "coniferous_lakes": "2021-06-27 03:16:04 +0200",
       "seasonal_orchard": "2021-06-27 03:12:08 +0200",
+      "highland_moor": "2021-06-27 17:42:48 +0200",
+      "highland_crag": "2021-06-27 17:39:36 +0200",
       "rainforest_cliffs": "2021-06-26 22:30:12 +0200",
       "fir_clearing": "2021-06-27 03:16:21 +0200",
+      "grassland": "2021-06-27 17:41:45 +0200",
       "tundra": "2021-06-27 03:09:54 +0200",
       "gravel_beach": "2021-06-27 03:04:17 +0200",
       "rainforest": "2021-06-27 01:56:27 +0200"
@@ -3723,7 +3734,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2021-06-27 16:49:42 +0200",
       "minecraft:creeper": "2021-06-27 02:54:39 +0200",
+      "minecraft:cave_spider": "2021-06-27 16:51:30 +0200",
       "minecraft:zombie": "2021-06-27 02:27:55 +0200"
     },
     "done": false
@@ -4458,9 +4471,11 @@
       "minecraft:taiga_hills": "2021-06-27 02:17:22 +0200",
       "minecraft:snowy_beach": "2021-06-27 02:49:35 +0200",
       "minecraft:deep_lukewarm_ocean": "2021-06-27 02:14:41 +0200",
+      "minecraft:beach": "2021-06-27 17:49:40 +0200",
       "minecraft:river": "2021-06-27 02:01:00 +0200",
       "minecraft:lukewarm_ocean": "2021-06-27 02:03:26 +0200",
       "minecraft:snowy_taiga": "2021-06-27 02:49:57 +0200",
+      "minecraft:wooded_hills": "2021-06-27 17:50:17 +0200",
       "minecraft:stone_shore": "2021-06-27 03:07:30 +0200",
       "minecraft:swamp": "2021-06-27 02:13:21 +0200"
     },
@@ -5063,6 +5078,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2021-06-27 03:22:46 +0200",
+      "sweet_berries": "2021-06-27 16:33:53 +0200",
       "bread": "2021-06-27 02:53:37 +0200",
       "melon_slice": "2021-06-27 02:06:22 +0200"
     },
