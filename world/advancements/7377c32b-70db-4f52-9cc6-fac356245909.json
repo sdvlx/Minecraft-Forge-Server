@@ -275,6 +275,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/jar_pixie": {
+    "criteria": {
+      "jar_4": "2021-06-30 14:27:55 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/umbran_fence": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -551,6 +557,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-07-01 18:34:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -743,6 +755,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_myrmex": {
+    "criteria": {
+      "desert": "2021-07-01 02:35:30 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/red_dye_from_rose": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -830,6 +848,12 @@
   "biomesoplenty:recipes/building_blocks/redwood_slab": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-07-01 20:59:03 +0200"
     },
     "done": true
   },
@@ -1061,6 +1085,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2021-06-29 22:40:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -1265,6 +1295,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_stymphalian_bird": {
+    "criteria": {
+      "killed_fire_dragon": "2021-06-29 20:33:26 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/white_sandstone_slab": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -1385,6 +1421,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2021-06-29 23:03:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -1450,6 +1492,12 @@
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2021-06-30 17:40:46 +0200"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
@@ -1628,6 +1676,18 @@
   "biomesoplenty:recipes/redstone/willow_trapdoor": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-06-30 17:40:46 +0200"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2021-06-30 01:29:55 +0200"
     },
     "done": true
   },
@@ -1997,6 +2057,14 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2021-06-30 13:10:22 +0200",
+      "minecraft:cow": "2021-06-30 13:10:16 +0200",
+      "minecraft:chicken": "2021-06-30 13:10:51 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -2222,6 +2290,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-06-30 17:40:46 +0200"
     },
     "done": true
   },
@@ -2699,6 +2773,18 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/tame_hippocampus": {
+    "criteria": {
+      "tame_rat": "2021-07-01 20:59:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-07-02 14:34:29 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -2813,9 +2899,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-06-30 18:00:00 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/use_tide_trident": {
+    "criteria": {
+      "shot_arrow": "2021-07-01 16:06:07 +0200"
     },
     "done": true
   },
@@ -2840,6 +2938,12 @@
   "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_cyclops": {
+    "criteria": {
+      "killed_fire_dragon": "2021-07-01 00:58:57 +0200"
     },
     "done": true
   },
@@ -3197,6 +3301,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2021-06-30 16:37:52 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -3377,6 +3487,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/orange_sandstone_slab_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2021-07-01 00:32:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_tripwire_hook": "2021-06-27 01:57:39 +0200"
@@ -3509,6 +3625,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_siren": {
+    "criteria": {
+      "killed_fire_dragon": "2021-07-01 13:40:38 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -3560,24 +3682,59 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "deep_bayou": "2021-06-27 02:03:09 +0200",
+      "woodland": "2021-06-30 01:25:03 +0200",
       "seasonal_pumpkin_patch": "2021-06-27 03:12:28 +0200",
+      "shrubland": "2021-06-29 20:31:55 +0200",
       "bayou_mangrove": "2021-06-27 02:02:12 +0200",
+      "scrubland": "2021-07-01 00:36:11 +0200",
       "wetland_forest": "2021-06-27 02:06:52 +0200",
+      "shroomy_wetland": "2021-06-30 14:06:19 +0200",
       "grassland_clover_patch": "2021-06-27 17:47:54 +0200",
+      "redwood_forest_edge": "2021-06-29 20:50:44 +0200",
+      "bamboo_blossom_grove": "2021-06-30 01:27:31 +0200",
       "bayou": "2021-06-27 02:02:28 +0200",
+      "lush_savanna": "2021-06-29 20:32:33 +0200",
       "highland": "2021-06-27 17:39:11 +0200",
+      "marsh": "2021-06-29 20:24:57 +0200",
+      "tundra_basin": "2021-06-30 00:42:10 +0200",
+      "jade_cliffs": "2021-06-30 01:23:49 +0200",
+      "flower_meadow": "2021-06-30 01:31:34 +0200",
       "wetland": "2021-06-27 02:06:03 +0200",
+      "meadow_forest": "2021-06-30 00:56:12 +0200",
+      "mystic_grove": "2021-06-30 12:48:38 +0200",
+      "cold_desert": "2021-07-02 13:55:53 +0200",
+      "wooded_scrubland": "2021-07-01 00:36:03 +0200",
+      "tundra_bog": "2021-06-30 00:42:15 +0200",
       "rainforest_floodplain": "2021-06-27 02:00:22 +0200",
+      "orchard": "2021-06-30 01:11:30 +0200",
+      "snowy_maple_forest": "2021-06-30 00:53:33 +0200",
       "coniferous_forest": "2021-06-27 03:23:43 +0200",
+      "alps": "2021-07-02 14:00:20 +0200",
+      "dryland": "2021-06-30 01:16:56 +0200",
+      "dry_boneyard": "2021-06-30 01:17:02 +0200",
+      "lush_desert": "2021-06-29 20:32:28 +0200",
+      "redwood_forest": "2021-06-29 20:51:28 +0200",
       "coniferous_lakes": "2021-06-27 03:16:04 +0200",
+      "cherry_blossom_grove": "2021-06-30 01:25:39 +0200",
       "seasonal_orchard": "2021-06-27 03:12:08 +0200",
       "highland_moor": "2021-06-27 17:42:48 +0200",
+      "seasonal_forest": "2021-06-29 17:49:48 +0200",
+      "grove_lakes": "2021-06-30 01:18:25 +0200",
+      "dense_woodland": "2021-06-30 01:22:17 +0200",
+      "mystic_plains": "2021-06-30 14:24:49 +0200",
       "highland_crag": "2021-06-27 17:39:36 +0200",
+      "meadow": "2021-06-30 00:56:29 +0200",
+      "golden_prairie": "2021-06-30 01:13:20 +0200",
       "rainforest_cliffs": "2021-06-26 22:30:12 +0200",
       "fir_clearing": "2021-06-27 03:16:21 +0200",
       "grassland": "2021-06-27 17:41:45 +0200",
+      "dense_marsh": "2021-06-30 01:04:38 +0200",
+      "prairie": "2021-06-30 01:13:13 +0200",
+      "snowy_coniferous_forest": "2021-06-30 00:53:02 +0200",
+      "snowy_fir_clearing": "2021-06-30 12:54:39 +0200",
       "tundra": "2021-06-27 03:09:54 +0200",
       "gravel_beach": "2021-06-27 03:04:17 +0200",
+      "grove": "2021-06-30 01:15:08 +0200",
       "rainforest": "2021-06-27 01:56:27 +0200"
     },
     "done": false
@@ -3735,9 +3892,15 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2021-06-27 16:49:42 +0200",
+      "minecraft:spider": "2021-06-29 22:43:03 +0200",
       "minecraft:creeper": "2021-06-27 02:54:39 +0200",
+      "minecraft:husk": "2021-07-01 02:29:50 +0200",
       "minecraft:cave_spider": "2021-06-27 16:51:30 +0200",
-      "minecraft:zombie": "2021-06-27 02:27:55 +0200"
+      "minecraft:enderman": "2021-06-30 18:06:08 +0200",
+      "minecraft:silverfish": "2021-07-01 14:58:12 +0200",
+      "minecraft:zombie": "2021-06-27 02:27:55 +0200",
+      "minecraft:drowned": "2021-07-01 23:31:55 +0200",
+      "minecraft:zombie_villager": "2021-06-29 23:39:06 +0200"
     },
     "done": false
   },
@@ -4020,6 +4183,12 @@
   "biomesoplenty:recipes/transportation/umbran_boat": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_deathworm": {
+    "criteria": {
+      "killed_fire_dragon": "2021-07-01 02:27:25 +0200"
     },
     "done": true
   },
@@ -4466,18 +4635,31 @@
       "minecraft:cold_ocean": "2021-06-27 02:40:21 +0200",
       "minecraft:forest": "2021-06-27 03:15:54 +0200",
       "minecraft:mountains": "2021-06-27 03:07:34 +0200",
+      "minecraft:badlands_plateau": "2021-07-01 13:32:48 +0200",
       "minecraft:taiga": "2021-06-27 03:06:22 +0200",
+      "minecraft:desert_hills": "2021-07-01 02:30:41 +0200",
+      "minecraft:giant_tree_taiga": "2021-07-02 13:29:49 +0200",
       "minecraft:deep_cold_ocean": "2021-06-27 02:40:08 +0200",
       "minecraft:taiga_hills": "2021-06-27 02:17:22 +0200",
+      "minecraft:desert": "2021-07-01 00:41:18 +0200",
+      "minecraft:birch_forest": "2021-07-01 00:25:52 +0200",
       "minecraft:snowy_beach": "2021-06-27 02:49:35 +0200",
+      "minecraft:warm_ocean": "2021-07-01 02:21:17 +0200",
       "minecraft:deep_lukewarm_ocean": "2021-06-27 02:14:41 +0200",
+      "minecraft:badlands": "2021-07-01 00:41:25 +0200",
+      "minecraft:savanna_plateau": "2021-06-29 20:37:11 +0200",
       "minecraft:beach": "2021-06-27 17:49:40 +0200",
+      "minecraft:dark_forest": "2021-06-30 14:35:18 +0200",
       "minecraft:river": "2021-06-27 02:01:00 +0200",
       "minecraft:lukewarm_ocean": "2021-06-27 02:03:26 +0200",
       "minecraft:snowy_taiga": "2021-06-27 02:49:57 +0200",
+      "minecraft:birch_forest_hills": "2021-07-01 00:26:17 +0200",
+      "minecraft:wooded_mountains": "2021-06-30 00:47:55 +0200",
       "minecraft:wooded_hills": "2021-06-27 17:50:17 +0200",
       "minecraft:stone_shore": "2021-06-27 03:07:30 +0200",
-      "minecraft:swamp": "2021-06-27 02:13:21 +0200"
+      "minecraft:swamp": "2021-06-27 02:13:21 +0200",
+      "minecraft:savanna": "2021-06-29 20:36:46 +0200",
+      "minecraft:plains": "2021-06-30 01:11:04 +0200"
     },
     "done": false
   },
@@ -4643,6 +4825,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2021-06-30 00:45:10 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/palm_trapdoor": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -4781,6 +4969,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/lectern": {
+    "criteria": {
+      "bestiary": "2021-06-30 01:30:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_banner": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -4880,6 +5074,12 @@
   "biomesoplenty:recipes/redstone/magic_button": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2021-07-01 02:28:14 +0200"
     },
     "done": true
   },
@@ -5033,6 +5233,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_egg": {
+    "criteria": {
+      "copper": "2021-07-01 20:04:09 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/stripped_jacaranda_wood": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -5077,12 +5283,28 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2021-06-30 18:34:03 +0200",
       "cooked_mutton": "2021-06-27 03:22:46 +0200",
       "sweet_berries": "2021-06-27 16:33:53 +0200",
+      "cooked_beef": "2021-07-01 00:26:55 +0200",
+      "beef": "2021-06-30 14:22:38 +0200",
+      "baked_potato": "2021-07-01 15:28:40 +0200",
+      "porkchop": "2021-06-30 14:12:49 +0200",
+      "apple": "2021-06-29 22:28:21 +0200",
+      "cooked_cod": "2021-07-01 15:29:43 +0200",
+      "mutton": "2021-06-30 14:16:58 +0200",
       "bread": "2021-06-27 02:53:37 +0200",
-      "melon_slice": "2021-06-27 02:06:22 +0200"
+      "golden_apple": "2021-07-01 19:56:21 +0200",
+      "melon_slice": "2021-06-27 02:06:22 +0200",
+      "cooked_chicken": "2021-07-01 02:41:22 +0200"
     },
     "done": false
+  },
+  "iceandfire:iceandfire/gorgon_head": {
+    "criteria": {
+      "bestiary": "2021-07-01 02:18:28 +0200"
+    },
+    "done": true
   },
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
@@ -5105,6 +5327,12 @@
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_lightning_dragon": "2021-07-01 00:44:25 +0200"
     },
     "done": true
   },
@@ -5261,6 +5489,12 @@
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/rotten_egg": {
+    "criteria": {
+      "bestiary": "2021-06-30 15:57:41 +0200"
     },
     "done": true
   },
@@ -5621,6 +5855,12 @@
   "biomesoplenty:recipes/building_blocks/cut_white_sandstone_from_white_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_staff": {
+    "criteria": {
+      "bestiary": "2021-07-01 20:14:24 +0200"
     },
     "done": true
   },
@@ -6293,6 +6533,12 @@
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2021-06-30 13:10:16 +0200"
     },
     "done": true
   },

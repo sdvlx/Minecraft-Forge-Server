@@ -1,305 +1,271 @@
-[27Jun2021 16:30:24.794] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[27Jun2021 16:30:24.796] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 15.0.2 by Oracle Corporation
-[27Jun2021 16:30:24.976] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[27Jun2021 16:30:25.009] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/User/Desktop/ForgeServer/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
-[27Jun2021 16:30:25.420] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
-[27Jun2021 16:30:25.688] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[27Jun2021 16:30:28.918] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[27Jun2021 16:30:28.921] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[27Jun2021 16:30:28.936] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
-[27Jun2021 16:30:28.938] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.0 Initialized
-[27Jun2021 16:30:30.265] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for gravestone:player_ghost, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.411] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityHippogryph from class com.github.alexthe666.iceandfire.entity.EntityPixie
-[27Jun2021 16:30:30.417] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDreadThrall from class com.github.alexthe666.iceandfire.entity.EntityDreadKnight
-[27Jun2021 16:30:30.462] [main/INFO] [quark/]: Loading Module Chain Linkage
-[27Jun2021 16:30:30.464] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
-[27Jun2021 16:30:30.464] [main/INFO] [quark/]: Loading Module Chute
-[27Jun2021 16:30:30.464] [main/INFO] [quark/]: Loading Module Color Slime
-[27Jun2021 16:30:30.464] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
-[27Jun2021 16:30:30.464] [main/INFO] [quark/]: Loading Module Ender Watcher
-[27Jun2021 16:30:30.464] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
-[27Jun2021 16:30:30.466] [main/INFO] [quark/]: Loading Module Feeding Trough
-[27Jun2021 16:30:30.469] [main/INFO] [quark/]: Loading Module Gravisand
-[27Jun2021 16:30:30.469] [main/INFO] [quark/]: Loading Module Iron Rod
-[27Jun2021 16:30:30.470] [main/INFO] [quark/]: Loading Module Metal Buttons
-[27Jun2021 16:30:30.470] [main/INFO] [quark/]: Loading Module Obsidian Plate
-[27Jun2021 16:30:30.470] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
-[27Jun2021 16:30:30.471] [main/INFO] [quark/]: Loading Module Redstone Circuit
-[27Jun2021 16:30:30.472] [main/INFO] [quark/]: Loading Module Weather Sensor
-[27Jun2021 16:30:30.472] [main/INFO] [quark/]: Loading Module Bamboo Mat
-[27Jun2021 16:30:30.472] [main/INFO] [quark/]: Loading Module Burn Vines
-[27Jun2021 16:30:30.473] [main/INFO] [quark/]: Loading Module Celebratory Lamps
-[27Jun2021 16:30:30.473] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
-[27Jun2021 16:30:30.473] [main/INFO] [quark/]: Loading Module Compressed Blocks
-[27Jun2021 16:30:30.473] [main/INFO] [quark/]: Loading Module Duskbound Blocks
-[27Jun2021 16:30:30.473] [main/INFO] [quark/]: Loading Module Framed Glass
-[27Jun2021 16:30:30.474] [main/INFO] [quark/]: Loading Module Gold Bars
-[27Jun2021 16:30:30.474] [main/INFO] [quark/]: Loading Module Grate
-[27Jun2021 16:30:30.474] [main/INFO] [quark/]: Loading Module Hedges
-[27Jun2021 16:30:30.474] [main/INFO] [quark/]: Loading Module Iron Plates
-[27Jun2021 16:30:30.475] [main/INFO] [quark/]: Loading Module Item Frames
-[27Jun2021 16:30:30.475] [main/INFO] [quark/]: Loading Module Leaf Carpet
-[27Jun2021 16:30:30.475] [main/INFO] [quark/]: Loading Module Lit Lamp
-[27Jun2021 16:30:30.475] [main/INFO] [quark/]: Loading Module Midori
-[27Jun2021 16:30:30.476] [main/INFO] [quark/]: Loading Module More Brick Types
-[27Jun2021 16:30:30.476] [main/INFO] [quark/]: Loading Module More Potted Plants
-[27Jun2021 16:30:30.476] [main/INFO] [quark/]: Loading Module More Stone Variants
-[27Jun2021 16:30:30.476] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
-[27Jun2021 16:30:30.477] [main/INFO] [quark/]: Loading Module Paper Decor
-[27Jun2021 16:30:30.477] [main/INFO] [quark/]: Loading Module Quilted Wool
-[27Jun2021 16:30:30.477] [main/INFO] [quark/]: Loading Module Rope
-[27Jun2021 16:30:30.477] [main/INFO] [quark/]: Loading Module Shallow Dirt
-[27Jun2021 16:30:30.478] [main/INFO] [quark/]: Loading Module Shingles
-[27Jun2021 16:30:30.478] [main/INFO] [quark/]: Loading Module Soul Sandstone
-[27Jun2021 16:30:30.478] [main/INFO] [quark/]: Loading Module Stained Planks
-[27Jun2021 16:30:30.478] [main/INFO] [quark/]: Loading Module Stools
-[27Jun2021 16:30:30.479] [main/INFO] [quark/]: Loading Module Sturdy Stone
-[27Jun2021 16:30:30.479] [main/INFO] [quark/]: Loading Module Tallow And Candles
-[27Jun2021 16:30:30.483] [main/INFO] [quark/]: Loading Module Thatch
-[27Jun2021 16:30:30.483] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
-[27Jun2021 16:30:30.484] [main/INFO] [quark/]: Loading Module Turf
-[27Jun2021 16:30:30.484] [main/INFO] [quark/]: Loading Module Variant Bookshelves
-[27Jun2021 16:30:30.484] [main/INFO] [quark/]: Loading Module Variant Chests
-[27Jun2021 16:30:30.486] [main/INFO] [quark/]: Loading Module Variant Ladders
-[27Jun2021 16:30:30.486] [main/INFO] [quark/]: Loading Module Vertical Planks
-[27Jun2021 16:30:30.487] [main/INFO] [quark/]: Loading Module Vertical Slabs
-[27Jun2021 16:30:30.487] [main/INFO] [quark/]: Loading Module Wooden Posts
-[27Jun2021 16:30:30.487] [main/INFO] [quark/]: Loading Module Chests In Boats
-[27Jun2021 16:30:30.488] [main/INFO] [quark/]: Loading Module Easy Transfering
-[27Jun2021 16:30:30.488] [main/INFO] [quark/]: Loading Module Hotbar Changer
-[27Jun2021 16:30:30.488] [main/INFO] [quark/]: Loading Module Inventory Sorting
-[27Jun2021 16:30:30.488] [main/INFO] [quark/]: Loading Module Item Sharing
-[27Jun2021 16:30:30.489] [main/INFO] [quark/]: Loading Module Right Click Armor
-[27Jun2021 16:30:30.489] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
-[27Jun2021 16:30:30.490] [main/INFO] [quark/]: Loading Module Abacus
-[27Jun2021 16:30:30.490] [main/INFO] [quark/]: Loading Module Ancient Tomes
-[27Jun2021 16:30:30.491] [main/INFO] [quark/]: Loading Module Bottled Cloud
-[27Jun2021 16:30:30.492] [main/INFO] [quark/]: Loading Module Camera
-[27Jun2021 16:30:30.492] [main/INFO] [quark/]: Loading Module Color Runes
-[27Jun2021 16:30:30.493] [main/INFO] [quark/]: Loading Module Pathfinder Maps
-[27Jun2021 16:30:30.494] [main/INFO] [quark/]: Loading Module Pickarang
-[27Jun2021 16:30:30.494] [main/INFO] [quark/]: Loading Module Seed Pouch
-[27Jun2021 16:30:30.495] [main/INFO] [quark/]: Loading Module Slime In A Bucket
-[27Jun2021 16:30:30.495] [main/INFO] [quark/]: Loading Module Trowel
-[27Jun2021 16:30:30.497] [main/INFO] [quark/]: Loading Module Skull Pikes
-[27Jun2021 16:30:30.499] [main/INFO] [quark/]: Loading Module Armed Armor Stands
-[27Jun2021 16:30:30.499] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
-[27Jun2021 16:30:30.500] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
-[27Jun2021 16:30:30.501] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
-[27Jun2021 16:30:30.501] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
-[27Jun2021 16:30:30.503] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
-[27Jun2021 16:30:30.503] [main/INFO] [quark/]: Loading Module Dirt To Path
-[27Jun2021 16:30:30.504] [main/INFO] [quark/]: Loading Module Double Door Opening
-[27Jun2021 16:30:30.504] [main/INFO] [quark/]: Loading Module Dragon Scales
-[27Jun2021 16:30:30.505] [main/INFO] [quark/]: Loading Module Emotes
-[27Jun2021 16:30:30.505] [main/INFO] [quark/]: Loading Module Enhanced Ladders
-[27Jun2021 16:30:30.506] [main/INFO] [quark/]: Loading Module Glass Shard
-[27Jun2021 16:30:30.506] [main/INFO] [quark/]: Loading Module Hoe Harvesting
-[27Jun2021 16:30:30.506] [main/INFO] [quark/]: Loading Module Improved Sleeping
-[27Jun2021 16:30:30.507] [main/INFO] [quark/]: Loading Module Infinity Bucket
-[27Jun2021 16:30:30.508] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
-[27Jun2021 16:30:30.508] [main/INFO] [quark/]: Loading Module Lock Rotation
-[27Jun2021 16:30:30.509] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
-[27Jun2021 16:30:30.510] [main/INFO] [quark/]: Loading Module Pat The Dogs
-[27Jun2021 16:30:30.511] [main/INFO] [quark/]: Loading Module Poison Potato Usage
-[27Jun2021 16:30:30.512] [main/INFO] [quark/]: Loading Module Reacharound Placing
-[27Jun2021 16:30:30.513] [main/INFO] [quark/]: Loading Module Replace Scaffolding
-[27Jun2021 16:30:30.513] [main/INFO] [quark/]: Loading Module Sign Editing
-[27Jun2021 16:30:30.514] [main/INFO] [quark/]: Loading Module Simple Harvest
-[27Jun2021 16:30:30.515] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
-[27Jun2021 16:30:30.515] [main/INFO] [quark/]: Loading Module Springy Slime
-[27Jun2021 16:30:30.515] [main/INFO] [quark/]: Loading Module Utility Recipes
-[27Jun2021 16:30:30.516] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
-[27Jun2021 16:30:30.516] [main/INFO] [quark/]: Loading Module Big Dungeon
-[27Jun2021 16:30:30.517] [main/INFO] [quark/]: Loading Module Big Stone Clusters
-[27Jun2021 16:30:30.517] [main/INFO] [quark/]: Loading Module Biotite
-[27Jun2021 16:30:30.518] [main/INFO] [quark/]: Loading Module Blossom Trees
-[27Jun2021 16:30:30.518] [main/INFO] [quark/]: Loading Module Cave Roots
-[27Jun2021 16:30:30.518] [main/INFO] [quark/]: Loading Module Chorus Vegetation
-[27Jun2021 16:30:30.518] [main/INFO] [quark/]: Loading Module Crevices
-[27Jun2021 16:30:30.518] [main/INFO] [quark/]: Loading Module Fairy Rings
-[27Jun2021 16:30:30.518] [main/INFO] [quark/]: Loading Module Mega Caves
-[27Jun2021 16:30:30.519] [main/INFO] [quark/]: Loading Module Monster Box
-[27Jun2021 16:30:30.519] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
-[27Jun2021 16:30:30.519] [main/INFO] [quark/]: Loading Module New Stone Types
-[27Jun2021 16:30:30.520] [main/INFO] [quark/]: Loading Module Realistic World Gen
-[27Jun2021 16:30:30.520] [main/INFO] [quark/]: Loading Module Speleothems
-[27Jun2021 16:30:30.521] [main/INFO] [quark/]: Loading Module Spiral Spires
-[27Jun2021 16:30:30.522] [main/INFO] [quark/]: Loading Module Underground Clay
-[27Jun2021 16:30:30.522] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
-[27Jun2021 16:30:30.522] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
-[27Jun2021 16:30:30.522] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
-[27Jun2021 16:30:30.522] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
-[27Jun2021 16:30:30.523] [main/INFO] [quark/]: Loading Module Lush Underground Biome
-[27Jun2021 16:30:30.523] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
-[27Jun2021 16:30:30.523] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
-[27Jun2021 16:30:30.523] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
-[27Jun2021 16:30:30.523] [main/INFO] [quark/]: Loading Module Slime Underground Biome
-[27Jun2021 16:30:30.523] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
-[27Jun2021 16:30:30.524] [main/INFO] [quark/]: Loading Module Crabs
-[27Jun2021 16:30:30.525] [main/INFO] [quark/]: Loading Module Forgotten
-[27Jun2021 16:30:30.525] [main/INFO] [quark/]: Loading Module Foxhound
-[27Jun2021 16:30:30.526] [main/INFO] [quark/]: Loading Module Frogs
-[27Jun2021 16:30:30.526] [main/INFO] [quark/]: Loading Module Stonelings
-[27Jun2021 16:30:30.527] [main/INFO] [quark/]: Loading Module Toretoise
-[27Jun2021 16:30:30.528] [main/INFO] [quark/]: Loading Module Wraith
-[27Jun2021 16:30:30.528] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
-[27Jun2021 16:30:30.528] [main/INFO] [quark/]: Loading Module Back Button Keybind
-[27Jun2021 16:30:30.528] [main/INFO] [quark/]: Loading Module Chest Searching
-[27Jun2021 16:30:30.528] [main/INFO] [quark/]: Loading Module Greener Grass
-[27Jun2021 16:30:30.529] [main/INFO] [quark/]: Loading Module Improved Mount Hud
-[27Jun2021 16:30:30.529] [main/INFO] [quark/]: Loading Module Improved Tooltips
-[27Jun2021 16:30:30.529] [main/INFO] [quark/]: Loading Module Usage Ticker
-[27Jun2021 16:30:30.529] [main/INFO] [quark/]: Loading Module Variant Animal Textures
-[27Jun2021 16:30:30.530] [main/INFO] [quark/]: Loading Module Backpack
-[27Jun2021 16:30:30.530] [main/INFO] [quark/]: Loading Module Crate
-[27Jun2021 16:30:30.530] [main/INFO] [quark/]: Loading Module Magnets
-[27Jun2021 16:30:30.530] [main/INFO] [quark/]: Loading Module Matrix Enchanting
-[27Jun2021 16:30:30.530] [main/INFO] [quark/]: Loading Module Pipes
-[27Jun2021 16:30:30.531] [main/INFO] [quark/]: Loading Module Totem Of Holding
-[27Jun2021 16:30:30.531] [main/INFO] [quark/]: Loading Module Adjustable Chat
-[27Jun2021 16:30:30.531] [main/INFO] [quark/]: Loading Module Custom Underground Biome
-[27Jun2021 16:30:30.531] [main/INFO] [quark/]: Loading Module Game Nerfs
-[27Jun2021 16:30:30.531] [main/INFO] [quark/]: Loading Module Narrator Readout
-[27Jun2021 16:30:30.531] [main/INFO] [quark/]: Loading Module Overlay Shader
-[27Jun2021 16:30:30.532] [main/INFO] [quark/]: Loading Module Shiba
-[27Jun2021 16:30:30.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[27Jun2021 16:30:30.570] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.577] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.577] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.583] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.584] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.586] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.586] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.588] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.588] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.589] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
-[27Jun2021 16:30:30.792] [modloading-worker-10/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[27Jun2021 16:30:30.792] [modloading-worker-13/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[27Jun2021 16:30:30.794] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[27Jun2021 16:30:30.796] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[27Jun2021 16:30:31.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.1.0 Target: null
-[27Jun2021 16:30:31.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
-[27Jun2021 16:30:31.826] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: UP_TO_DATE Current: 1.16.5-1.0.4 Target: null
-[27Jun2021 16:30:32.877] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Jun2021 16:30:33.163] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[27Jun2021 16:30:33.165] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[27Jun2021 16:30:33.167] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[27Jun2021 16:30:33.169] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[27Jun2021 16:30:33.170] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[27Jun2021 16:30:33.175] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.1.0-universal.jar, BiomesOPlenty-1.16.5-13.1.0.477-universal.jar, gravestone-1.16.5-1.0.4.jar, XaerosWorldMap_1.14.1_Forge_1.16.5.jar, citadel-1.7.1-1.16.5.jar, iceandfire-2.1.8-1.16.5.jar, AutoRegLib-1.6-49.jar, Quark-r2.4-313.jar, jei-1.16.5-7.7.0.106.jar, Xaeros_Minimap_21.10.0.3_Forge_1.16.5.jar
-[27Jun2021 16:30:33.998] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[27Jun2021 16:30:34.463] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1175 advancements
-[27Jun2021 16:30:35.666] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap Expected: 0 Got: 37
-[27Jun2021 16:30:35.666] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap_beneficial Expected: 33 Got: 38
-[27Jun2021 16:30:35.667] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap_harmful Expected: 34 Got: 39
-[27Jun2021 16:30:35.667] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar Expected: 35 Got: 40
-[27Jun2021 16:30:35.668] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar_beneficial Expected: 36 Got: 41
-[27Jun2021 16:30:35.668] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar_harmful Expected: 37 Got: 42
-[27Jun2021 16:30:35.668] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints Expected: 38 Got: 43
-[27Jun2021 16:30:35.668] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints_beneficial Expected: 39 Got: 44
-[27Jun2021 16:30:35.669] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints_harmful Expected: 40 Got: 45
-[27Jun2021 16:30:35.669] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps Expected: 41 Got: 46
-[27Jun2021 16:30:35.669] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps_beneficial Expected: 42 Got: 47
-[27Jun2021 16:30:35.669] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps_harmful Expected: 43 Got: 48
-[27Jun2021 16:30:36.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[27Jun2021 16:30:36.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[27Jun2021 16:30:36.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[27Jun2021 16:30:36.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Jun2021 16:30:36.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 192.168.0.238:25565
-[27Jun2021 16:30:36.911] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[27Jun2021 16:30:37.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[27Jun2021 16:30:37.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Jun2021 16:30:38.773] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[27Jun2021 16:30:38.773] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[27Jun2021 16:30:38.773] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[27Jun2021 16:30:38.774] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[27Jun2021 16:30:39.016] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1906 ms
-[27Jun2021 16:30:39.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.014s)! For help, type "help"
-[27Jun2021 16:30:39.029] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
-[27Jun2021 16:30:39.029] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[27Jun2021 16:31:53.897] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Clearity is 7377c32b-70db-4f52-9cc6-fac356245909
-[27Jun2021 16:31:55.631] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6fc61c3f
-[27Jun2021 16:31:55.660] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Clearity[/192.168.0.1:53848] logged in with entity id 66 at (2186.5, 83.5625, -889.5579338545541)
-[27Jun2021 16:31:55.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity joined the game
-[27Jun2021 16:32:01.380] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player KaldaIis is 56010c10-b01c-45e8-b91c-a6d58e45794d
-[27Jun2021 16:32:03.701] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5b4e5b5d
-[27Jun2021 16:32:03.714] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: KaldaIis[/192.168.0.1:55753] logged in with entity id 326 at (2185.7190986903875, 83.0, -887.8360051723314)
-[27Jun2021 16:32:03.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis joined the game
-[27Jun2021 16:38:34.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis has made the advancement [Isn't It Iron Pick]
-[27Jun2021 16:38:39.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity has made the advancement [Isn't It Iron Pick]
-[27Jun2021 16:40:09.149] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MysteriousAnimal is 118297ac-74c9-46cd-a2df-f81e3b4e3451
-[27Jun2021 16:40:09.355] [Netty Server IO #7/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [quark:main,citadel:main_channel,iceandfire:main_channel,autoreglib:main] rejected their client side version number
-[27Jun2021 16:40:09.356] [Netty Server IO #7/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[27Jun2021 16:40:09.389] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@2ad1c370[id=118297ac-74c9-46cd-a2df-f81e3b4e3451,name=MysteriousAnimal,properties={textures=[com.mojang.authlib.properties.Property@597f663b]},legacy=false] (/84.197.222.234:53058) lost connection: Connection closed - mismatched mod channel list
-[27Jun2021 16:40:14.636] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MysteriousAnimal is 118297ac-74c9-46cd-a2df-f81e3b4e3451
-[27Jun2021 16:40:14.704] [Netty Server IO #9/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [quark:main,citadel:main_channel,iceandfire:main_channel,autoreglib:main] rejected their client side version number
-[27Jun2021 16:40:14.704] [Netty Server IO #9/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[27Jun2021 16:40:14.736] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1208b3ef[id=118297ac-74c9-46cd-a2df-f81e3b4e3451,name=MysteriousAnimal,properties={textures=[com.mojang.authlib.properties.Property@78f4442]},legacy=false] (/84.197.222.234:53065) lost connection: Connection closed - mismatched mod channel list
-[27Jun2021 16:43:18.197] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MysteriousAnimal is 118297ac-74c9-46cd-a2df-f81e3b4e3451
-[27Jun2021 16:43:18.339] [Netty Server IO #11/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [quark:main,citadel:main_channel,iceandfire:main_channel,autoreglib:main] rejected their client side version number
-[27Jun2021 16:43:18.339] [Netty Server IO #11/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[27Jun2021 16:43:18.386] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@52bcd299[id=118297ac-74c9-46cd-a2df-f81e3b4e3451,name=MysteriousAnimal,properties={textures=[com.mojang.authlib.properties.Property@7fd42136]},legacy=false] (/84.197.222.234:53298) lost connection: Connection closed - mismatched mod channel list
-[27Jun2021 16:49:50.452] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MysteriousAnimal is 118297ac-74c9-46cd-a2df-f81e3b4e3451
-[27Jun2021 16:49:52.886] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@93b27f6
-[27Jun2021 16:49:52.889] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: MysteriousAnimal[/84.197.222.234:60363] logged in with entity id 3680 at (-150.5, 123.0, 218.5)
-[27Jun2021 16:49:52.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal joined the game
-[27Jun2021 16:49:53.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal has made the advancement [Ice and Fire]
-[27Jun2021 16:50:23.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported MysteriousAnimal to Clearity
-[27Jun2021 16:52:24.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal has made the advancement [Isn't It Iron Pick]
-[27Jun2021 16:52:57.190] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal has made the advancement [Stone Age]
-[27Jun2021 16:57:11.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal has made the advancement [Acquire Hardware]
-[27Jun2021 16:57:27.580] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cobblestone'/5425, l='ServerLevel[world]', x=2002.99, y=13.37, z=-893.03]
-[27Jun2021 17:04:46.969] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal has made the advancement [Sweet Dreams]
-[27Jun2021 17:26:52.139] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wheat Seeds'/10068, l='ServerLevel[world]', x=2191.30, y=83.45, z=-887.74]
-[27Jun2021 17:26:52.170] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wheat'/10067, l='ServerLevel[world]', x=2190.27, y=83.28, z=-888.04]
-[27Jun2021 17:30:34.692] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Clearity lost connection: Disconnected
-[27Jun2021 17:30:34.692] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity left the game
-[27Jun2021 17:32:04.495] [User Authenticator #7/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Clearity is 7377c32b-70db-4f52-9cc6-fac356245909
-[27Jun2021 17:32:06.098] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5a5f1539
-[27Jun2021 17:32:06.110] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Clearity[/192.168.0.1:54133] logged in with entity id 11619 at (2242.5713967073843, 61.0, -715.6999999880791)
-[27Jun2021 17:32:06.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity joined the game
-[27Jun2021 17:32:56.389] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/11724, l='ServerLevel[world]', x=2280.23, y=67.07, z=-468.18] died, message: 'Villager tried to swim in lava'
-[27Jun2021 17:33:08.970] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Silver Nugget'/11954, l='ServerLevel[world]', x=2233.27, y=70.75, z=-618.57]
-[27Jun2021 17:33:20.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Clearity> xaero-waypoint:Ice dragon den:I:2218:68:-651:15:false:0:Internal-overworld-waypoints
-[27Jun2021 17:43:31.151] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=2926, y=44, z=-845} but found not block entity block Block{minecraft:stone} at location
-[27Jun2021 17:43:31.151] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=2926, y=44, z=-845}
-[27Jun2021 17:43:31.152] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=2915, y=27, z=-844} but found not block entity block Block{minecraft:stone} at location
-[27Jun2021 17:43:31.152] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=2915, y=27, z=-844}
-[27Jun2021 17:43:31.155] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=2925, y=43, z=-828} but found not block entity block Block{minecraft:stone} at location
-[27Jun2021 17:43:31.155] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=2925, y=43, z=-828}
-[27Jun2021 17:43:31.155] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=2918, y=27, z=-829} but found not block entity block Block{minecraft:stone} at location
-[27Jun2021 17:43:31.155] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=2918, y=27, z=-829}
-[27Jun2021 17:43:31.156] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=2917, y=35, z=-815} but found not block entity block Block{minecraft:water}[level=0] at location
-[27Jun2021 17:43:31.156] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{minecraft:water}[level=0] but failed at location BlockPos{x=2917, y=35, z=-815}
-[27Jun2021 17:45:32.296] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal fell from a high place
-[27Jun2021 17:47:58.096] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Clearity lost connection: Disconnected
-[27Jun2021 17:47:58.096] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity left the game
-[27Jun2021 17:48:11.640] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis lost connection: Disconnected
-[27Jun2021 17:48:11.640] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis left the game
-[27Jun2021 17:48:19.089] [User Authenticator #8/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player KaldaIis is 56010c10-b01c-45e8-b91c-a6d58e45794d
-[27Jun2021 17:48:21.293] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5f235d4a
-[27Jun2021 17:48:21.302] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: KaldaIis[/192.168.0.1:56200] logged in with entity id 19799 at (1862.5768104875533, 14.0, -891.3000000119209)
-[27Jun2021 17:48:21.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis joined the game
-[27Jun2021 17:48:21.990] [User Authenticator #9/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Clearity is 7377c32b-70db-4f52-9cc6-fac356245909
-[27Jun2021 17:48:23.599] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1cbd867f
-[27Jun2021 17:48:23.611] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Clearity[/192.168.0.1:54209] logged in with entity id 20024 at (2719.223800503631, 64.0, -1007.86972376598)
-[27Jun2021 17:48:23.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity joined the game
-[27Jun2021 17:53:32.190] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Clearity lost connection: Disconnected
-[27Jun2021 17:53:32.190] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity left the game
-[27Jun2021 17:58:11.940] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MysteriousAnimal lost connection: Disconnected
-[27Jun2021 17:58:11.941] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MysteriousAnimal left the game
-[27Jun2021 17:58:15.486] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis lost connection: Disconnected
-[27Jun2021 17:58:15.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis left the game
-[27Jun2021 17:58:24.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[27Jun2021 17:58:24.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[27Jun2021 17:58:24.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[27Jun2021 17:58:24.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[27Jun2021 17:58:24.882] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[27Jun2021 17:58:24.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[27Jun2021 17:58:24.883] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[27Jun2021 17:58:24.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[27Jun2021 17:58:24.884] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[27Jun2021 17:58:24.898] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[27Jun2021 17:58:24.910] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[27Jun2021 17:58:24.910] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Jul2021 15:22:17.491] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[03Jul2021 15:22:17.494] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 15.0.2 by Oracle Corporation
+[03Jul2021 15:22:17.673] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03Jul2021 15:22:17.705] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/User/Desktop/ForgeServer/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[03Jul2021 15:22:18.118] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[03Jul2021 15:22:18.406] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[03Jul2021 15:22:21.565] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03Jul2021 15:22:21.566] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03Jul2021 15:22:21.585] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
+[03Jul2021 15:22:21.594] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.0 Initialized
+[03Jul2021 15:22:21.692] [modloading-worker-1/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[03Jul2021 15:22:21.724] [modloading-worker-1/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[03Jul2021 15:22:23.011] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for gravestone:player_ghost, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.163] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityHippogryph from class com.github.alexthe666.iceandfire.entity.EntityPixie
+[03Jul2021 15:22:23.170] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDreadThrall from class com.github.alexthe666.iceandfire.entity.EntityDreadKnight
+[03Jul2021 15:22:23.228] [main/INFO] [quark/]: Loading Module Chain Linkage
+[03Jul2021 15:22:23.230] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[03Jul2021 15:22:23.230] [main/INFO] [quark/]: Loading Module Chute
+[03Jul2021 15:22:23.230] [main/INFO] [quark/]: Loading Module Color Slime
+[03Jul2021 15:22:23.231] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[03Jul2021 15:22:23.231] [main/INFO] [quark/]: Loading Module Ender Watcher
+[03Jul2021 15:22:23.231] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[03Jul2021 15:22:23.233] [main/INFO] [quark/]: Loading Module Feeding Trough
+[03Jul2021 15:22:23.234] [main/INFO] [quark/]: Loading Module Gravisand
+[03Jul2021 15:22:23.235] [main/INFO] [quark/]: Loading Module Iron Rod
+[03Jul2021 15:22:23.235] [main/INFO] [quark/]: Loading Module Metal Buttons
+[03Jul2021 15:22:23.235] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[03Jul2021 15:22:23.235] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[03Jul2021 15:22:23.237] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[03Jul2021 15:22:23.237] [main/INFO] [quark/]: Loading Module Weather Sensor
+[03Jul2021 15:22:23.237] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[03Jul2021 15:22:23.237] [main/INFO] [quark/]: Loading Module Burn Vines
+[03Jul2021 15:22:23.238] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[03Jul2021 15:22:23.238] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[03Jul2021 15:22:23.238] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[03Jul2021 15:22:23.239] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[03Jul2021 15:22:23.239] [main/INFO] [quark/]: Loading Module Framed Glass
+[03Jul2021 15:22:23.239] [main/INFO] [quark/]: Loading Module Gold Bars
+[03Jul2021 15:22:23.239] [main/INFO] [quark/]: Loading Module Grate
+[03Jul2021 15:22:23.239] [main/INFO] [quark/]: Loading Module Hedges
+[03Jul2021 15:22:23.239] [main/INFO] [quark/]: Loading Module Iron Plates
+[03Jul2021 15:22:23.240] [main/INFO] [quark/]: Loading Module Item Frames
+[03Jul2021 15:22:23.240] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[03Jul2021 15:22:23.240] [main/INFO] [quark/]: Loading Module Lit Lamp
+[03Jul2021 15:22:23.240] [main/INFO] [quark/]: Loading Module Midori
+[03Jul2021 15:22:23.240] [main/INFO] [quark/]: Loading Module More Brick Types
+[03Jul2021 15:22:23.240] [main/INFO] [quark/]: Loading Module More Potted Plants
+[03Jul2021 15:22:23.241] [main/INFO] [quark/]: Loading Module More Stone Variants
+[03Jul2021 15:22:23.241] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[03Jul2021 15:22:23.241] [main/INFO] [quark/]: Loading Module Paper Decor
+[03Jul2021 15:22:23.241] [main/INFO] [quark/]: Loading Module Quilted Wool
+[03Jul2021 15:22:23.241] [main/INFO] [quark/]: Loading Module Rope
+[03Jul2021 15:22:23.242] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[03Jul2021 15:22:23.242] [main/INFO] [quark/]: Loading Module Shingles
+[03Jul2021 15:22:23.242] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[03Jul2021 15:22:23.243] [main/INFO] [quark/]: Loading Module Stained Planks
+[03Jul2021 15:22:23.245] [main/INFO] [quark/]: Loading Module Stools
+[03Jul2021 15:22:23.245] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[03Jul2021 15:22:23.246] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[03Jul2021 15:22:23.246] [main/INFO] [quark/]: Loading Module Thatch
+[03Jul2021 15:22:23.246] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[03Jul2021 15:22:23.247] [main/INFO] [quark/]: Loading Module Turf
+[03Jul2021 15:22:23.247] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[03Jul2021 15:22:23.247] [main/INFO] [quark/]: Loading Module Variant Chests
+[03Jul2021 15:22:23.250] [main/INFO] [quark/]: Loading Module Variant Ladders
+[03Jul2021 15:22:23.250] [main/INFO] [quark/]: Loading Module Vertical Planks
+[03Jul2021 15:22:23.250] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[03Jul2021 15:22:23.250] [main/INFO] [quark/]: Loading Module Wooden Posts
+[03Jul2021 15:22:23.250] [main/INFO] [quark/]: Loading Module Chests In Boats
+[03Jul2021 15:22:23.251] [main/INFO] [quark/]: Loading Module Easy Transfering
+[03Jul2021 15:22:23.251] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[03Jul2021 15:22:23.251] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[03Jul2021 15:22:23.252] [main/INFO] [quark/]: Loading Module Item Sharing
+[03Jul2021 15:22:23.252] [main/INFO] [quark/]: Loading Module Right Click Armor
+[03Jul2021 15:22:23.252] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[03Jul2021 15:22:23.253] [main/INFO] [quark/]: Loading Module Abacus
+[03Jul2021 15:22:23.253] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[03Jul2021 15:22:23.254] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[03Jul2021 15:22:23.254] [main/INFO] [quark/]: Loading Module Camera
+[03Jul2021 15:22:23.255] [main/INFO] [quark/]: Loading Module Color Runes
+[03Jul2021 15:22:23.255] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[03Jul2021 15:22:23.256] [main/INFO] [quark/]: Loading Module Pickarang
+[03Jul2021 15:22:23.256] [main/INFO] [quark/]: Loading Module Seed Pouch
+[03Jul2021 15:22:23.257] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[03Jul2021 15:22:23.258] [main/INFO] [quark/]: Loading Module Trowel
+[03Jul2021 15:22:23.258] [main/INFO] [quark/]: Loading Module Skull Pikes
+[03Jul2021 15:22:23.259] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[03Jul2021 15:22:23.260] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[03Jul2021 15:22:23.261] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[03Jul2021 15:22:23.261] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[03Jul2021 15:22:23.262] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[03Jul2021 15:22:23.263] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[03Jul2021 15:22:23.264] [main/INFO] [quark/]: Loading Module Dirt To Path
+[03Jul2021 15:22:23.264] [main/INFO] [quark/]: Loading Module Double Door Opening
+[03Jul2021 15:22:23.264] [main/INFO] [quark/]: Loading Module Dragon Scales
+[03Jul2021 15:22:23.265] [main/INFO] [quark/]: Loading Module Emotes
+[03Jul2021 15:22:23.265] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[03Jul2021 15:22:23.266] [main/INFO] [quark/]: Loading Module Glass Shard
+[03Jul2021 15:22:23.266] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[03Jul2021 15:22:23.266] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[03Jul2021 15:22:23.267] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[03Jul2021 15:22:23.268] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[03Jul2021 15:22:23.268] [main/INFO] [quark/]: Loading Module Lock Rotation
+[03Jul2021 15:22:23.269] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[03Jul2021 15:22:23.270] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[03Jul2021 15:22:23.271] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[03Jul2021 15:22:23.271] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[03Jul2021 15:22:23.272] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[03Jul2021 15:22:23.272] [main/INFO] [quark/]: Loading Module Sign Editing
+[03Jul2021 15:22:23.272] [main/INFO] [quark/]: Loading Module Simple Harvest
+[03Jul2021 15:22:23.273] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[03Jul2021 15:22:23.273] [main/INFO] [quark/]: Loading Module Springy Slime
+[03Jul2021 15:22:23.273] [main/INFO] [quark/]: Loading Module Utility Recipes
+[03Jul2021 15:22:23.274] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[03Jul2021 15:22:23.276] [main/INFO] [quark/]: Loading Module Big Dungeon
+[03Jul2021 15:22:23.276] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[03Jul2021 15:22:23.276] [main/INFO] [quark/]: Loading Module Biotite
+[03Jul2021 15:22:23.277] [main/INFO] [quark/]: Loading Module Blossom Trees
+[03Jul2021 15:22:23.277] [main/INFO] [quark/]: Loading Module Cave Roots
+[03Jul2021 15:22:23.277] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[03Jul2021 15:22:23.277] [main/INFO] [quark/]: Loading Module Crevices
+[03Jul2021 15:22:23.278] [main/INFO] [quark/]: Loading Module Fairy Rings
+[03Jul2021 15:22:23.278] [main/INFO] [quark/]: Loading Module Mega Caves
+[03Jul2021 15:22:23.278] [main/INFO] [quark/]: Loading Module Monster Box
+[03Jul2021 15:22:23.279] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[03Jul2021 15:22:23.279] [main/INFO] [quark/]: Loading Module New Stone Types
+[03Jul2021 15:22:23.279] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[03Jul2021 15:22:23.280] [main/INFO] [quark/]: Loading Module Speleothems
+[03Jul2021 15:22:23.280] [main/INFO] [quark/]: Loading Module Spiral Spires
+[03Jul2021 15:22:23.280] [main/INFO] [quark/]: Loading Module Underground Clay
+[03Jul2021 15:22:23.281] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[03Jul2021 15:22:23.281] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[03Jul2021 15:22:23.281] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[03Jul2021 15:22:23.281] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[03Jul2021 15:22:23.281] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[03Jul2021 15:22:23.281] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[03Jul2021 15:22:23.282] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[03Jul2021 15:22:23.282] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[03Jul2021 15:22:23.282] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[03Jul2021 15:22:23.282] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[03Jul2021 15:22:23.283] [main/INFO] [quark/]: Loading Module Crabs
+[03Jul2021 15:22:23.284] [main/INFO] [quark/]: Loading Module Forgotten
+[03Jul2021 15:22:23.284] [main/INFO] [quark/]: Loading Module Foxhound
+[03Jul2021 15:22:23.284] [main/INFO] [quark/]: Loading Module Frogs
+[03Jul2021 15:22:23.285] [main/INFO] [quark/]: Loading Module Stonelings
+[03Jul2021 15:22:23.285] [main/INFO] [quark/]: Loading Module Toretoise
+[03Jul2021 15:22:23.285] [main/INFO] [quark/]: Loading Module Wraith
+[03Jul2021 15:22:23.286] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[03Jul2021 15:22:23.286] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[03Jul2021 15:22:23.286] [main/INFO] [quark/]: Loading Module Chest Searching
+[03Jul2021 15:22:23.286] [main/INFO] [quark/]: Loading Module Greener Grass
+[03Jul2021 15:22:23.286] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[03Jul2021 15:22:23.286] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[03Jul2021 15:22:23.287] [main/INFO] [quark/]: Loading Module Usage Ticker
+[03Jul2021 15:22:23.287] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[03Jul2021 15:22:23.287] [main/INFO] [quark/]: Loading Module Backpack
+[03Jul2021 15:22:23.287] [main/INFO] [quark/]: Loading Module Crate
+[03Jul2021 15:22:23.287] [main/INFO] [quark/]: Loading Module Magnets
+[03Jul2021 15:22:23.288] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[03Jul2021 15:22:23.288] [main/INFO] [quark/]: Loading Module Pipes
+[03Jul2021 15:22:23.288] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[03Jul2021 15:22:23.288] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[03Jul2021 15:22:23.288] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[03Jul2021 15:22:23.289] [main/INFO] [quark/]: Loading Module Game Nerfs
+[03Jul2021 15:22:23.289] [main/INFO] [quark/]: Loading Module Narrator Readout
+[03Jul2021 15:22:23.289] [main/INFO] [quark/]: Loading Module Overlay Shader
+[03Jul2021 15:22:23.290] [main/INFO] [quark/]: Loading Module Shiba
+[03Jul2021 15:22:23.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03Jul2021 15:22:23.324] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.328] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.342] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.344] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.346] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.348] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.349] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.350] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.351] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.352] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[03Jul2021 15:22:23.544] [modloading-worker-13/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[03Jul2021 15:22:23.544] [modloading-worker-15/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[03Jul2021 15:22:23.547] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[03Jul2021 15:22:23.548] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[03Jul2021 15:22:24.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.1.0 Target: null
+[03Jul2021 15:22:24.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[03Jul2021 15:22:24.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: UP_TO_DATE Current: 1.16.5-1.0.4 Target: null
+[03Jul2021 15:22:24.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[03Jul2021 15:22:24.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 5.4.2 Target: null
+[03Jul2021 15:22:25.665] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Jul2021 15:22:25.930] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Jul2021 15:22:25.932] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Jul2021 15:22:25.933] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Jul2021 15:22:25.935] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Jul2021 15:22:25.938] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Jul2021 15:22:25.942] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.1.0-universal.jar, BiomesOPlenty-1.16.5-13.1.0.477-universal.jar, gravestone-1.16.5-1.0.4.jar, XaerosWorldMap_1.14.1_Forge_1.16.5.jar, citadel-1.7.1-1.16.5.jar, iceandfire-2.1.8-1.16.5.jar, AutoRegLib-1.6-49.jar, Quark-r2.4-313.jar, jei-1.16.5-7.7.0.106.jar, Xaeros_Minimap_21.10.0.3_Forge_1.16.5.jar, TravelersBackpack-1.16.5-5.4.2.jar
+[03Jul2021 15:22:26.776] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[03Jul2021 15:22:27.291] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1175 advancements
+[03Jul2021 15:22:29.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[03Jul2021 15:22:29.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Jul2021 15:22:29.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Jul2021 15:22:29.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Jul2021 15:22:29.379] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 192.168.0.238:25565
+[03Jul2021 15:22:29.382] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[03Jul2021 15:22:29.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Jul2021 15:22:29.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Jul2021 15:22:31.197] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Jul2021 15:22:31.198] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Jul2021 15:22:31.198] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Jul2021 15:22:31.198] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Jul2021 15:22:31.407] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1845 ms
+[03Jul2021 15:22:31.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.935s)! For help, type "help"
+[03Jul2021 15:22:31.421] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+[03Jul2021 15:22:31.421] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[03Jul2021 15:23:49.083] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player KaldaIis is 56010c10-b01c-45e8-b91c-a6d58e45794d
+[03Jul2021 15:23:51.471] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@660698af
+[03Jul2021 15:23:51.497] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: KaldaIis[/192.168.0.1:64194] logged in with entity id 60 at (2318.204046672331, 64.0, 1252.1810867892643)
+[03Jul2021 15:23:51.507] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis joined the game
+[03Jul2021 15:23:52.445] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDragonBase from class com.github.alexthe666.iceandfire.entity.EntityLightningDragon
+[03Jul2021 15:23:52.445] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDragonBase from class com.github.alexthe666.iceandfire.entity.EntityLightningDragon
+[03Jul2021 15:23:52.446] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDragonBase from class com.github.alexthe666.iceandfire.entity.EntityLightningDragon
+[03Jul2021 15:23:52.446] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDragonBase from class com.github.alexthe666.iceandfire.entity.EntityLightningDragon
+[03Jul2021 15:24:11.295] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Clearity is 7377c32b-70db-4f52-9cc6-fac356245909
+[03Jul2021 15:24:12.940] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@63b7cee0
+[03Jul2021 15:24:12.958] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Clearity[/192.168.0.1:63612] logged in with entity id 337 at (2111.622090778083, 69.0, 1254.4742564113712)
+[03Jul2021 15:24:12.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity joined the game
+[03Jul2021 15:32:55.682] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis was kicked for floating too long!
+[03Jul2021 15:32:55.732] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis lost connection: Flying is not enabled on this server
+[03Jul2021 15:32:55.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis left the game
+[03Jul2021 15:33:00.430] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player KaldaIis is 56010c10-b01c-45e8-b91c-a6d58e45794d
+[03Jul2021 15:33:02.536] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1040d974
+[03Jul2021 15:33:02.547] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: KaldaIis[/192.168.0.1:64233] logged in with entity id 3048 at (2326.68603515625, 68.81624293327332, 1205.85595703125)
+[03Jul2021 15:33:02.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis joined the game
+[03Jul2021 15:35:38.341] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis was kicked for floating too long!
+[03Jul2021 15:35:38.390] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis lost connection: Flying is not enabled on this server
+[03Jul2021 15:35:38.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis left the game
+[03Jul2021 15:35:43.108] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player KaldaIis is 56010c10-b01c-45e8-b91c-a6d58e45794d
+[03Jul2021 15:35:45.245] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@362bb57f
+[03Jul2021 15:35:45.255] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: KaldaIis[/192.168.0.1:64244] logged in with entity id 3826 at (2345.1836383972422, 68.88319849967957, 1208.0977955536648)
+[03Jul2021 15:35:45.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis joined the game
+[03Jul2021 15:37:16.843] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Clearity lost connection: Disconnected
+[03Jul2021 15:37:16.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity left the game
+[03Jul2021 15:37:21.322] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Clearity is 7377c32b-70db-4f52-9cc6-fac356245909
+[03Jul2021 15:37:22.952] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@70c3ece0
+[03Jul2021 15:37:22.965] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Clearity[/192.168.0.1:57118] logged in with entity id 4495 at (2236.072315835678, 13.0, 1307.5437417727892)
+[03Jul2021 15:37:22.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity joined the game
+[03Jul2021 16:03:26.961] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Clearity lost connection: Disconnected
+[03Jul2021 16:03:26.962] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity left the game
+[03Jul2021 16:11:02.017] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Clearity is 7377c32b-70db-4f52-9cc6-fac356245909
+[03Jul2021 16:11:03.629] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@18ce6d53
+[03Jul2021 16:11:03.640] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Clearity[/192.168.0.1:59125] logged in with entity id 14758 at (2100.300000011921, 10.0, 1283.630336889414)
+[03Jul2021 16:11:03.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity joined the game
+[03Jul2021 16:20:18.089] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Clearity lost connection: Disconnected
+[03Jul2021 16:20:18.089] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity left the game
+[03Jul2021 16:20:27.164] [User Authenticator #7/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Clearity is 7377c32b-70db-4f52-9cc6-fac356245909
+[03Jul2021 16:20:28.791] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5280a190
+[03Jul2021 16:20:28.801] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Clearity[/192.168.0.1:62217] logged in with entity id 19398 at (2167.852000491439, 40.0, 1151.5817836600665)
+[03Jul2021 16:20:28.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity joined the game
+[03Jul2021 16:21:42.340] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis lost connection: Disconnected
+[03Jul2021 16:21:42.340] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis left the game
+[03Jul2021 16:33:15.638] [User Authenticator #8/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player KaldaIis is 56010c10-b01c-45e8-b91c-a6d58e45794d
+[03Jul2021 16:33:17.814] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6fc160f0
+[03Jul2021 16:33:17.824] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: KaldaIis[/192.168.0.1:64480] logged in with entity id 21899 at (2319.699999988079, 65.0, 1246.99309929451)
+[03Jul2021 16:33:17.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis joined the game
+[03Jul2021 16:35:23.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Clearity> xaero-waypoint:help help help:H:2265:41:791:4:false:0:Internal-overworld-waypoints
+[03Jul2021 16:35:46.180] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=2266, y=62, z=792} BlockPos{x=2266, y=60, z=792}
+[03Jul2021 16:35:46.230] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=2266, y=59, z=792} BlockPos{x=2266, y=60, z=792}
+[03Jul2021 16:37:33.463] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Armorer'/21618, l='ServerLevel[world]', x=2245.70, y=64.00, z=712.39] died, message: 'Armorer was slain by Zombie'
+[03Jul2021 16:38:25.912] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Fisherman'/21612, l='ServerLevel[world]', x=2277.30, y=67.00, z=722.43] died, message: 'Fisherman was slain by Zombie'
+[03Jul2021 16:42:44.019] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Clearity lost connection: Disconnected
+[03Jul2021 16:42:44.020] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Clearity left the game
+[03Jul2021 16:42:46.219] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: KaldaIis lost connection: Disconnected
+[03Jul2021 16:42:46.219] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: KaldaIis left the game
