@@ -1495,7 +1495,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:soul_sand_valley": "2021-06-30 17:40:46 +0200"
+      "minecraft:soul_sand_valley": "2021-06-30 17:40:46 +0200",
+      "minecraft:warped_forest": "2021-07-04 13:46:00 +0200"
     },
     "done": false
   },
@@ -3535,6 +3536,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragonbone_flaming_sword": {
+    "criteria": {
+      "fire_sword": "2021-07-04 12:42:45 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/mahogany_trapdoor": {
     "criteria": {
       "has_the_recipe": "2021-06-26 22:30:12 +0200"
@@ -3898,6 +3905,7 @@
       "minecraft:cave_spider": "2021-06-27 16:51:30 +0200",
       "minecraft:enderman": "2021-06-30 18:06:08 +0200",
       "minecraft:silverfish": "2021-07-01 14:58:12 +0200",
+      "minecraft:stray": "2021-07-04 12:53:52 +0200",
       "minecraft:zombie": "2021-06-27 02:27:55 +0200",
       "minecraft:drowned": "2021-07-01 23:31:55 +0200",
       "minecraft:zombie_villager": "2021-06-29 23:39:06 +0200"
